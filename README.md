@@ -20,3 +20,4 @@ View your app in AI Studio: https://ai.studio/apps/9f26b6b6-626e-4c8c-86d8-8e632
    `npm run dev`
 "# gazeilstore" 
 "# gazeilstore" 
+"# gazal-store" 
