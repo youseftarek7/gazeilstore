@@ -1,0 +1,392 @@
+{
+  "exportedAt": "2026-09-02T20:38:00.000Z",
+  "storeName": "Ghazal Dental Store (ستور غزال)",
+  "contact": {
+    "phone": "01007070766",
+    "whatsapp": "201551905201",
+    "address": "المساعيد • شارع الإذاعة (بجوار مكتبة المصطفى) - العريش"
+  },
+  "stats": {
+    "totalCategories": 8,
+    "totalProducts": 12
+  },
+  "categories": [
+    {
+      "id": "year",
+      "key": "year",
+      "name": "Year 1 st",
+      "arabicName": "السنة الأولى (Year 1)",
+      "description": "Dental anatomy, wax carving, study casts, and foundational dental tools.",
+      "arabicDescription": "أدوات التشريح الوصفي للأسنان ونحت الشمع وكاستات الدراسة للمستوى الأول.",
+      "premiumImage": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&auto=format&fit=crop&q=80",
+      "subCategories": [
+        {
+          "key": "dental-anatomy",
+          "name": "Dental Anatomy & Wax",
+          "arabicName": "تشريح أسنان ونحت",
+          "description": "Wax blocks, carvers, and anatomy models",
+          "arabicDescription": "شمع ونحت ونماذج تشريحية"
+        },
+        {
+          "key": "general-tools",
+          "name": "General Lab Tools",
+          "arabicName": "أدوات معمل عامة",
+          "description": "Bowls, spatulas, and rulers",
+          "arabicDescription": "أوعية وسباتيولا ومساطر"
+        }
+      ]
+    },
+    {
+      "id": "year-2-nd",
+      "key": "year-2-nd",
+      "name": "Year 2 nd",
+      "arabicName": "السنة الثانية (Year 2)",
+      "description": "Prosthodontics, acrylics, impression materials, and operative kits.",
+      "arabicDescription": "مستلزمات التركيبات المتحركة، الأكريليك، مواد الطبعات وأدوات الحشو.",
+      "premiumImage": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&auto=format&fit=crop&q=80",
+      "subCategories": [
+        {
+          "key": "prostho-2",
+          "name": "Prosthodontics",
+          "arabicName": "تركيبات متحركة",
+          "description": "Articulators, acrylic teeth, and flasks",
+          "arabicDescription": "أرتيكولاتور وأسنان وفلاسك"
+        },
+        {
+          "key": "operative-2",
+          "name": "Operative Dentistry",
+          "arabicName": "علاج تحفظي وحشوات",
+          "description": "Restorative kits and instruments",
+          "arabicDescription": "أدوات ومستلزمات الحشو"
+        }
+      ]
+    },
+    {
+      "id": "year-3-th",
+      "key": "year-3-th",
+      "name": "Year 3 rd (Pre-Clinic)",
+      "arabicName": "السنة الثالثة (Pre-Clinic)",
+      "description": "Endodontic files, cavity prep burs, typodont jaws, and phantom heads.",
+      "arabicDescription": "مبارد علاج الجذور، سنابل التحضير، فكوك التدريب ومستلزمات المعامل المتقدمة.",
+      "premiumImage": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&auto=format&fit=crop&q=80",
+      "subCategories": [
+        {
+          "key": "endo-3",
+          "name": "Endodontics",
+          "arabicName": "علاج الجذور",
+          "description": "K-files, rotary files, and sealers",
+          "arabicDescription": "مبارد وسيلر علاج الجذور"
+        },
+        {
+          "key": "fixed-3",
+          "name": "Fixed Prosthodontics",
+          "arabicName": "تركيبات ثابتة",
+          "description": "Crown prep burs and impression materials",
+          "arabicDescription": "سنابل تحضير ومواد طبعات"
+        }
+      ]
+    },
+    {
+      "id": "clinical",
+      "key": "clinical",
+      "name": "Year 4 th (Clinical)",
+      "arabicName": "السنة الرابعة (Clinical)",
+      "description": "Clinical diagnostic sets, extraction forceps, anesthesia, and restorative gear.",
+      "arabicDescription": "أطقم الفحص السريري، فورسبس الخلع، التخدير ومستلزمات العيادات المباشرة.",
+      "premiumImage": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&auto=format&fit=crop&q=80",
+      "subCategories": [
+        {
+          "key": "surgery-4",
+          "name": "Oral Surgery",
+          "arabicName": "جراحة الفم والخلع",
+          "description": "Forceps, elevators, and sutures",
+          "arabicDescription": "فورسبس وإليفاتور وخيوط جراحية"
+        },
+        {
+          "key": "resto-4",
+          "name": "Restorative Clinical",
+          "arabicName": "عيادات الحشو والترميم",
+          "description": "Composite sets and polishing kits",
+          "arabicDescription": "كومبوزيت وفينيشينج وتلميع"
+        }
+      ]
+    },
+    {
+      "id": "year-4-th",
+      "key": "year-4-th",
+      "name": "Dental Clinics",
+      "arabicName": "تجهيزات عيادات الأسنان",
+      "description": "Professional clinical supplies, curing lights, composite sets, and sterilizers.",
+      "arabicDescription": "مستلزمات العيادات الاحترافية، أجهزة البلمرة الضوئية والتعقيم والمستهلكات اليومية.",
+      "premiumImage": "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=600&auto=format&fit=crop&q=80",
+      "subCategories": [
+        {
+          "key": "clinic-devices",
+          "name": "Clinical Devices",
+          "arabicName": "أجهزة العيادة",
+          "description": "Curing lights, apex locators, and scalers",
+          "arabicDescription": "لايت كيور وأبيكس لوكيتور وسكيلر"
+        },
+        {
+          "key": "disposables",
+          "name": "Disposables & Infection Control",
+          "arabicName": "مستهلكات ومكافحة عدوى",
+          "description": "Gloves, bibs, and sterilization pouches",
+          "arabicDescription": "جوانتيات ورولات تعقيم ومرايل"
+        }
+      ]
+    },
+    {
+      "id": "medical-scrub",
+      "key": "medical-scrub",
+      "name": "Medical Scrubs",
+      "arabicName": "سكراب وزي طبي",
+      "description": "Premium breathable medical scrubs for students, dentists, and assistants.",
+      "arabicDescription": "بدل وسكرابات طبية بأقمشة مريحة وعالية الجودة وتصاميم عصرية.",
+      "premiumImage": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=600&auto=format&fit=crop&q=80",
+      "subCategories": [
+        {
+          "key": "scrubs-all",
+          "name": "All Scrubs",
+          "arabicName": "جميع السكرابات",
+          "description": "Men and Women scrub suits",
+          "arabicDescription": "بدلات سكراب رجالي وحريمي"
+        }
+      ]
+    },
+    {
+      "id": "lab-coat-",
+      "key": "lab-coat-",
+      "name": "Lab Coats",
+      "arabicName": "بالطو ومعاطف طبية",
+      "description": "Classic high quality white lab coats for university laboratories and clinics.",
+      "arabicDescription": "معاطف وبالطو أبيض قطني كلاسيكي لتدريب المعامل والمستشفيات.",
+      "premiumImage": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=600&auto=format&fit=crop&q=80",
+      "subCategories": [
+        {
+          "key": "lab-coats-all",
+          "name": "All Lab Coats",
+          "arabicName": "جميع المعاطف",
+          "description": "Short and long doctor coats",
+          "arabicDescription": "بالطو طويل وقصير للأطباء"
+        }
+      ]
+    },
+    {
+      "id": "pharmacy-",
+      "key": "pharmacy-",
+      "name": "Pharmacy Supplies",
+      "arabicName": "مستلزمات صيدلية وطبية",
+      "description": "Essential pharmaceutical and general medical equipment and accessories.",
+      "arabicDescription": "أدوات ومستلزمات طبية وصيدلية عامة مساعدة.",
+      "premiumImage": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&auto=format&fit=crop&q=80",
+      "subCategories": [
+        {
+          "key": "pharma-general",
+          "name": "General Tools",
+          "arabicName": "أدوات عامة",
+          "description": "Pharmacy accessories and laboratory tools",
+          "arabicDescription": "أدوات صيدلية ومخبرية عامة"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code": "alginate",
+      "name": "Alginate Impression Material",
+      "arabicName": "مادة ألجينات لأخذ الطبعات",
+      "price": 200,
+      "categoryKey": "year",
+      "subCategoryKey": "general-tools",
+      "description": "High precision dental alginate impression material for study models and orthodontics.",
+      "arabicDescription": "ألجينات عالي الدقة لأخذ طبعات الأسنان ونماذج الدراسة والتقويم.",
+      "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&auto=format&fit=crop&q=80",
+      "tag": "BEST SELLER",
+      "arabicTag": "الأكثر مبيعاً",
+      "rating": 5,
+      "reviewsCount": 42,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "code": "silaxil",
+      "name": "Silaxil C-Silicone Impression Kit",
+      "arabicName": "طقم سيليكون سيلاكسيل",
+      "price": 870,
+      "categoryKey": "year-2-nd",
+      "subCategoryKey": "prostho-2",
+      "description": "Premium condensation silicone impression material with putty, light body, and activator.",
+      "arabicDescription": "مادة طبعات سيليكون عالية الجودة تشمل البتي واللايت والأكتيفاتور.",
+      "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&auto=format&fit=crop&q=80",
+      "tag": "POPULAR",
+      "arabicTag": "شائع",
+      "rating": 5,
+      "reviewsCount": 38,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "code": "articulator",
+      "name": "Dental Articulator Standard",
+      "arabicName": "أرتيكولاتور أسنان قياسي",
+      "price": 450,
+      "categoryKey": "year",
+      "subCategoryKey": "dental-anatomy",
+      "description": "Durable metal articulator for mounting dental casts and analyzing occlusion.",
+      "arabicDescription": "أرتيكولاتور معدني متين لتركيب كاستات الأسنان ودراسة الإطباق.",
+      "image": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&auto=format&fit=crop&q=80",
+      "tag": "ESSENTIAL",
+      "arabicTag": "أساسي",
+      "rating": 5,
+      "reviewsCount": 29,
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "code": "acrostone",
+      "name": "Acrostone Cold Cure Acrylic",
+      "arabicName": "أكروستون كولد كيور",
+      "price": 390,
+      "categoryKey": "year-2-nd",
+      "subCategoryKey": "prostho-2",
+      "description": "Self-curing acrylic resin powder and liquid for dental laboratory repairs and appliances.",
+      "arabicDescription": "بودرة وسائل أكريليك ذاتي التصلب لصناعة وتصليح الأجهزة التعويضية.",
+      "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&auto=format&fit=crop&q=80",
+      "tag": "BEST SELLER",
+      "arabicTag": "الأكثر مبيعاً",
+      "rating": 5,
+      "reviewsCount": 51,
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "code": "acrylic-teeth-sheet",
+      "name": "Acrylic Teeth Full Set Sheet",
+      "arabicName": "شيت أسنان أكريليك كامل",
+      "price": 95,
+      "categoryKey": "year-2-nd",
+      "subCategoryKey": "prostho-2",
+      "description": "High quality polymer cross-linked teeth for complete and partial dentures practice.",
+      "arabicDescription": "أسنان بوليمر متصالبة عالية الجودة لتدريب التركيبات الكاملة والجزئية.",
+      "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&auto=format&fit=crop&q=80",
+      "rating": 4.8,
+      "reviewsCount": 19,
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "code": "rubber-bowl",
+      "name": "Dental Rubber Mixing Bowl",
+      "arabicName": "وعاء خلط مطاطي",
+      "price": 25,
+      "categoryKey": "year",
+      "subCategoryKey": "general-tools",
+      "description": "Flexible rubber mixing bowl for alginate, plaster, and stone mixing.",
+      "arabicDescription": "وعاء مطاطي مرن لخلط الألجينات والجبس وحجر الأسنان بسهولة.",
+      "image": "https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=600&auto=format&fit=crop&q=80",
+      "rating": 4.9,
+      "reviewsCount": 65,
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "code": "gas-torch",
+      "name": "Gas Torch Micro Burner",
+      "arabicName": "تورج غاز للمختبر",
+      "price": 90,
+      "categoryKey": "year",
+      "subCategoryKey": "dental-anatomy",
+      "description": "Refillable butane gas torch for wax carving and dental lab work.",
+      "arabicDescription": "شعلة غاز قابلة لإعادة التعبئة لنحت الشمع وأعمال مختبر الأسنان.",
+      "image": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&auto=format&fit=crop&q=80",
+      "rating": 4.7,
+      "reviewsCount": 22,
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "code": "spatula-plastic",
+      "name": "Plastic Alginate Spatula",
+      "arabicName": "سباتيولا بلاستيك للألجينات",
+      "price": 15,
+      "categoryKey": "year",
+      "subCategoryKey": "general-tools",
+      "description": "Ergonomic plastic spatula designed for smooth, bubble-free alginate mixing.",
+      "arabicDescription": "سباتيولا بلاستيكية مريحة لخلط الألجينات بسلاسة وبدون فقاعات.",
+      "image": "https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=600&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "reviewsCount": 30,
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "code": "scrub-navy",
+      "name": "Medical Scrub Premium Navy Blue",
+      "arabicName": "سكراب طبي كحلي ممتاز",
+      "price": 350,
+      "categoryKey": "medical-scrub",
+      "subCategoryKey": "scrubs-all",
+      "description": "High quality breathable medical scrub suit for clinic and university students.",
+      "arabicDescription": "بدلة سكراب طبي قماش مريح ومقاوم للسوائل لطلاب الطب والعيادات.",
+      "image": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=600&auto=format&fit=crop&q=80",
+      "tag": "POPULAR",
+      "arabicTag": "شائع",
+      "rating": 5,
+      "reviewsCount": 44,
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "code": "lab-coat-white",
+      "name": "White Lab Coat Doctor Cut",
+      "arabicName": "بالطو أبيض طبي كلاسيك",
+      "price": 250,
+      "categoryKey": "lab-coat-",
+      "subCategoryKey": "lab-coats-all",
+      "description": "Professional cotton lab coat with deep pockets for university and hospital.",
+      "arabicDescription": "بالطو أبيض قطني كلاسيكي بجيوب مريحة للجامعة والمستشفى.",
+      "image": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=600&auto=format&fit=crop&q=80",
+      "tag": "ESSENTIAL",
+      "arabicTag": "أساسي",
+      "rating": 5,
+      "reviewsCount": 35,
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "code": "forceps-set",
+      "name": "Dental Extraction Forceps Set",
+      "arabicName": "طقم كماشات خلع أسنان ستانلس",
+      "price": 650,
+      "categoryKey": "clinical",
+      "subCategoryKey": "surgery-4",
+      "description": "German stainless steel dental extraction forceps set for adult teeth.",
+      "arabicDescription": "طقم فورسبس ستانلس ستيل ألماني عالي الجودة للخلط الجراحي والعيادات.",
+      "image": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=600&auto=format&fit=crop&q=80",
+      "tag": "BEST SELLER",
+      "arabicTag": "الأكثر مبيعاً",
+      "rating": 5,
+      "reviewsCount": 48,
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "code": "curing-light",
+      "name": "LED Wireless Curing Light",
+      "arabicName": "جهاز لايت كيور لاسلكي",
+      "price": 1200,
+      "categoryKey": "year-4-th",
+      "subCategoryKey": "clinic-devices",
+      "description": "High power cordless LED curing light for dental composite resin restoration.",
+      "arabicDescription": "جهاز بلمرة حشوات كومبوزيت ليزر لاسلكي عالي الكفاءة مع بطارية تدوم طويلاً.",
+      "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&auto=format&fit=crop&q=80",
+      "tag": "FEATURED",
+      "arabicTag": "مميز",
+      "rating": 5,
+      "reviewsCount": 27,
+      "inStock": true
+    }
+  ]
+}

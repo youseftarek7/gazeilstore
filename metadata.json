@@ -1,0 +1,6 @@
+{
+  "name": "Ghazal Dental",
+  "description": "An interactive e-commerce platform for premium dental instruments, academic kits sorted by academic years, clinics equipment, and scrubs apparel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
