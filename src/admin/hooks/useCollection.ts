@@ -1,44 +1,42 @@
 import { useEffect, useState } from "react";
+import { subscribeCollection } from "../services/firestoreService";
 import type { OrderByDirection } from "firebase/firestore";
-import { collections, subscribeCollection } from "../services/firestoreService";
 
 export function useCollection<T>(
-  collectionName: keyof typeof collections,
+  name: "products" | "packages" | "categories" | "orders" | "homepage" | "settings" | "developer" | "users",
   sortField = "createdAt",
   direction: OrderByDirection = "desc",
-  enabled = true,
+  enabled: boolean = true
 ) {
   const [rows, setRows] = useState<T[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(enabled);
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
     if (!enabled) {
-      setRows([]);
       setLoading(false);
-      setError(null);
       return;
     }
 
     setLoading(true);
+    setError(null);
+
     const unsubscribe = subscribeCollection<T>(
-      collectionName,
-      (items) => {
-        setRows(items);
+      name,
+      (nextRows) => {
+        setRows(nextRows);
         setLoading(false);
-        setError(null);
       },
-      (snapshotError) => {
-        setError(snapshotError);
-        setRows([]);
+      (nextError) => {
+        setError(nextError);
         setLoading(false);
       },
       sortField,
-      direction,
+      direction
     );
 
     return unsubscribe;
-  }, [collectionName, direction, enabled, sortField]);
+  }, [name, sortField, direction, enabled]);
 
   return { rows, loading, error };
 }
